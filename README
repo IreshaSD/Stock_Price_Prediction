@@ -1,0 +1,36 @@
+# KNN Implementation for Stock Price Prediction
+
+This project uses the K-Nearest Neighbors (KNN) algorithm to predict stock prices for Tata Global Beverages based on provided historical data. The implementation includes both classification and regression techniques to predict whether to buy or sell the stock (classification) and predict the stock's closing prices (regression).
+
+# Overview
+
+The code leverages the Quandl API to retrieve historical stock data for Tata Global Beverages. The dataset is preprocessed, and features are engineered to predict stock movements and closing prices.
+
+# Key Steps:
+
+Data retrieval using Quandl for Tata Global Beverages.
+Plotting the closing price of the stock to visualize trends.
+Feature engineering by calculating price differences between Open and Close, and High and Low values.
+Classification: Training a KNN classifier to predict whether to buy or sell the stock based on input features.
+Regression: Training a KNN regressor to predict the stock's closing prices.
+
+# Usage
+
+* Libraries Installation:
+
+Ensure the necessary libraries (pandas, numpy, matplotlib, quandl, sklearn) are installed.
+Run the provided code in an environment with these libraries installed.
+
+* Execution:
+
+Execute the code to retrieve the stock data and perform KNN-based predictions.
+Follow the comments in the code to understand each step's purpose.
+
+* Customization:
+
+Modify the parameters in the KNN models (n_neighbors) to optimize the prediction performance.
+
+# Note
+
+Quandl API Key: Ensure you have a valid API key from Quandl to access the stock data. Update the code to include your API key if required.
+Limitations: Be cautious about API usage limits. You might encounter limitations on the number of API calls based on your account type.
